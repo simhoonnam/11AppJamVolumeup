@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kr.appjam.appjam.AddActivity"
+    android:weightSum="10"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#003">
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="10">
+
+
+
+
+            <LinearLayout
+
+                android:orientation="vertical"
+                android:id="@+id/SetName"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2">
+
+
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <TextView
+                    android:gravity="center_vertical"
+                    android:text="이름"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/NameID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            <View
+                android:background="#000"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/SetApp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2">
+
+
+
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/AppNameText"
+                        android:gravity="center_vertical"
+                        android:text="실행시킬 앱"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:text="클릭하여 선택"
+                        android:textSize="20sp"
+                        android:id="@+id/AppName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+            <View
+                android:background="#000"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/pattern"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="6">
+
+
+
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:gravity="center_vertical"
+                        android:text="실행방법"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+</LinearLayout>
